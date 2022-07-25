@@ -147,7 +147,7 @@ section {
   fill: white;
 }
 
-/*===============-MEDIA QUERIES-===============*/
+/*===============-Article Media Query-===============*/
 @media screen and (max-width: 770px) {
   article {
     display: inline-block;
@@ -159,8 +159,6 @@ section {
   p {
     font-size: 18px;
   }
-
-
 }
 /*===============-CARDS CODE-===============*/
 /* Positions the cards in a grid and allows them to spill evenly as the screen size is shrunk */
@@ -177,9 +175,9 @@ section {
 /* (Container) Manages the colour, sizes, positioning for elements placed within the card */
 .card {
   position: relative;
-  margin-left: 1.8rem;
-  margin-top: 2rem;
-  margin-bottom: 10px;
+  margin-left: 1.6rem;
+  margin-top: 0.6rem;
+  margin-bottom: 0.8rem;
   place-items: left;
   font-size: 0.6rem;
   background-size: cover;
@@ -240,6 +238,15 @@ section {
   background-color: whitesmoke;
   color:hsl(40, 4%, 25%);
   cursor: url(images/blur_small.png) 16 16, pointer;
+}
+
+@media screen and (max-width: 770px) {
+  .card {
+    position: relative;
+    margin-left: 0.7rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.8rem;
+  }
 }
 
 /*===============-NAVBAR CODE-===============*/
@@ -428,5 +435,11 @@ footer {
   display: block;
   position: relative;
   align-items: center;
+}
+
+@media screen and (max-width: 770px) {
+  .footer-button {
+    left: 45vw;
+  }
 }
 
