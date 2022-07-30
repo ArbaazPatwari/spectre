@@ -159,6 +159,10 @@ section {
   p {
     font-size: 18px;
   }
+
+  li {
+    font-size: 20px;
+  }
 }
 /*===============-CARDS CODE-===============*/
 /* Positions the cards in a grid and allows them to spill evenly as the screen size is shrunk */
@@ -334,7 +338,7 @@ nav a:hover {
 }
 
 /* Changes the form of the Navbar once 800px screen size is reached; desktop website links in the Navbar are removed and a drop down menu can be toggled by clicking the now appeared website icon */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 770px) {
   .nav-toggle-label {
     display: none;
   }
