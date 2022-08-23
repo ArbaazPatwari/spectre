@@ -17,6 +17,7 @@ html {
 }
 ::-webkit-scrollbar-thumb {
   background:hsl(40, 4%, 25%);
+  border-radius: 2px;
 }
 /*Code for the body of the pages*/
 body {
