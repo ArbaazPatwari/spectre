@@ -60,7 +60,7 @@ body {
 .heading_image_3 {
   position: relative;
   display: block;
-  margin-left: 250px;
+  margin-left: 176px;
   bottom: 50px;
   margin-bottom: -46px;
 }
@@ -100,6 +100,24 @@ section {
 .introduction {
   margin-left: 20px;
   max-width: 60%;
+}
+
+.introduction_image {
+  float: right;
+  width: 120px;
+  height: 80px;
+  border-radius: 2px;
+  margin-right: 20px;
+  margin-top: -130px;
+  margin-bottom: 10px;
+}
+
+.publish_date_base {
+  font-size: 20px;
+  float: right;
+  margin-right: 20px;
+  margin-top: -40px;
+  margin-bottom: 10px;
 }
 
 .icon_move {
@@ -158,6 +176,10 @@ section {
   }
 
   p {
+    font-size: 20px;
+  }
+
+  .publish_date_base {
     font-size: 18px;
   }
 
@@ -253,6 +275,13 @@ section {
     margin-bottom: 0.8rem;
   }
 }
+
+/*===============-LIST CODE-=================*/
+
+
+
+
+
 
 /*===============-NAVBAR CODE-===============*/
 /* Includes the padding and border in an element's total width and height */
