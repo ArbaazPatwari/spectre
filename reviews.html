@@ -36,13 +36,20 @@
       <img class="heading_image_2" src="images/review_icon.png">
       <p class="introduction">This page shows cards of games that I have played before, linking to each review.</p>
       <hr class="rule">
+      <div class="internal_nav_box">
+        <ul class="list_sideways">
+          <li><a class="internal_link" href="#T">Top</a> |</li>
+          <li><a class="internal_link" href="#M">Middle</a> |</li>
+          <li><a class="internal_link" href="#B">Bottom</a></li>
+        </ul>
+      </div>
       <!-- Cards that are externally styled. They are displayed in a grid and spill to the next row based on screen size. They are the same size, have one animation and one transformation to make them more dynamic -->
       <section class="cards">
         <!-- Main styling for each card; each background image is specified on an inline-basis so the classes did not have to be written again with different images applied -->
         <div class="card" style="background-image: url(images/astroneer_card.png);">
           <div class="card-content">
             <!-- Card title with a small block animation underneath, activated on hovering the mouse over the code -->
-            <h2 class="card-title">Astroneer</h2>
+            <h2 id="T" class="card-title">Astroneer</h2>
             <!-- At this stage, the website does not have dedicated pages for each game, so the '#' links the button to itself -->
             <a href="#" class="button">check it out</a>
           </div>
@@ -125,7 +132,7 @@
       <section class="cards">
         <div class="card" style="background-image: url(images/halo_4_card.png);">
           <div class="card-content">
-            <h2 class="card-title">Halo 4</h2>
+            <h2 id="M" class="card-title">Halo 4</h2>
             <a href="#" class="button">check it out</a>
           </div>
         </div>
@@ -277,7 +284,7 @@
       <section class="cards">
         <div class="card" style="background-image: url(images/warframe_card.png);">
           <div class="card-content">
-            <h2 class="card-title">Warframe</h2>
+            <h2 id="B" class="card-title">Warframe</h2>
             <a href="./subpages/review-warframe.html" class="button">check it out</a>
           </div>
         </div>
