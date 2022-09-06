@@ -1,5 +1,5 @@
 // Simple JavaScript function to travel to the top of the page 
-topbutton = document.getElementsByClass("footer-button");
+topbutton = document.getElementByClass("footer-button");
 
 function pageTop() {
   document.body.scrollTop = 0;
