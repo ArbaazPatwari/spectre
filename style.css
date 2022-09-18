@@ -232,31 +232,38 @@ section {
   border-bottom-right-radius: 2px;
 }
 
-.icon_move {
+.icon_size {
+  display: inline;
   position: relative;
-  display: block;
-  margin-left: 100px;
-  bottom: 25px;
-  height: 24px;
   width: 24px;
+  height: 24px;
+}
+
+.icon_move {
+  display: inline;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  left: 100px;
+  bottom: 26px;
 }
 
 .icon_move_2 {
+  display: inline;
   position: relative;
-  display: block;
-  margin-left: 80px;
-  bottom: 26px;
-  height: 24px;
   width: 24px;
+  height: 24px;
+  left: 80px;
+  bottom: 26px;
 }
 
 .icon_move_3 {
+  display: inline;
   position: relative;
-  display: block;
-  margin-left: 160px;
-  bottom: 24px;
-  height: 24px;
   width: 24px;
+  height: 24px;
+  left: 160px;
+  bottom: 26px;
 }
 
 .shorten {
