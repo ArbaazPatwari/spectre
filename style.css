@@ -266,6 +266,15 @@ section {
   bottom: 26px;
 }
 
+.icon_move_4 {
+  display: inline;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  left: 96px;
+  bottom: 26px;
+}
+
 .shorten {
   position: relative;
   margin-top: -8px;
