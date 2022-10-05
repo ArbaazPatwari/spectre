@@ -67,6 +67,14 @@ body {
   margin-bottom: -46px;
 }
 
+.heading_image_4 {
+  position: relative;
+  display: block;
+  margin-left: 210px;
+  bottom: 50px;
+  margin-bottom: -46px;
+}
+
 .square_list {
   list-style: square;
 }
