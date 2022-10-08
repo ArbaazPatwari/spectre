@@ -386,6 +386,12 @@ section {
   font-size: 1.4rem;
   color: whitesmoke;
 }
+
+.card-title-dark {
+  position: relative;
+  font-size: 1.4rem;
+  color: hsl(40, 4%, 25%);
+}
 /* Small animation similar to that of the Navbar, where a white block squashes and returns to shape on mouse hover; it codes for the start of the animation */
 .card-title::after {
   content: "";
