@@ -83,6 +83,10 @@ body {
   list-style: none;
 }
 
+.breakup {
+  word-break: break-all;
+}
+
 article {
   display: inline-block;
   margin-left: 20%;
